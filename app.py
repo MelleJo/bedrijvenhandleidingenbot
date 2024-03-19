@@ -76,7 +76,7 @@ def process_document(document_path, user_question):
     
 
 def main():
-    st.title("Bedrijvenhandleidingenbot - testversie 0.1.")
+    st.title("Bedrijvenhandleidingbot - testversie 0.1.")
     documents = get_documents('manuals')
     selected_doc_title = st.selectbox("Kies een document:", documents)
     selected_document_path = os.path.join(BASE_DIR, 'manuals', selected_doc_title)
