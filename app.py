@@ -111,7 +111,7 @@ def process_documents(user_question):
     
 
 def main():
-    st.title("Bedrijvenhandleidingbot - testversie 0.1.")
+    st.title("Bedrijvenhandleidingbot - testversie 0.1.2.")
     
     query_option = st.radio(
         "Waar wil je een vraag over stellen?",
